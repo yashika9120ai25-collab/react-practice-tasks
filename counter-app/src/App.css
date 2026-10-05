@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f5ff;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  width: 90%;
+  margin: 25px auto 0;
+  height: 90px;
+
+  background-color: #6c4ab6;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 40px;
+
+  border-radius: 6px;
+}
+
+.logo {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 70px;
+}
+
+.nav-links span {
+  color: white;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+/* Main Section */
+
+.main-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* Counter Card */
+
+.counter-card {
+  width: 78%;
+  min-height: 470px;
+
+  background-color: #ffffff;
+
+  border: 2px solid #ddd5ef;
+  border-radius: 18px;
+
+  padding: 40px 50px;
+
+  box-shadow: 0 3px 10px rgba(108, 74, 182, 0.08);
+}
+
+/* COUNT */
+
+.counter-card h2 {
+  color: #2d2142;
+  font-size: 30px;
+  font-weight: 500;
+
+  margin: 0 0 25px 0;
+}
+
+/* Description */
+
+.counter-card p {
+  color: #514760;
+  font-size: 24px;
+
+  margin: 0;
+}
+
+/* Buttons */
+
+.button-container {
+  display: flex;
+  gap: 18px;
+  margin-top: 215px;
+}
+
+.button-container button {
+  background-color: #6c4ab6;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  padding: 14px 28px;
+
+  font-size: 19px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.button-container button:hover {
+  background-color: #553798;
+  transform: translateY(-2px);
+}

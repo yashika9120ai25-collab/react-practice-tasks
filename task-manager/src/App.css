@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f5ff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  width: 85%;
+  height: 92px;
+
+  margin: 25px auto 0;
+
+  background-color: #6c4ab6;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 40px;
+
+  border-radius: 6px;
+}
+
+.logo {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 45px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.nav-links a:hover {
+  color: #e8ddff;
+}
+
+/* Main Card */
+
+.page {
+  width: 72%;
+  min-height: 470px;
+
+  margin: 50px auto;
+
+  padding: 40px 50px;
+
+  background-color: white;
+
+  border: 2px solid #ddd5ef;
+
+  border-radius: 18px;
+
+  box-shadow: 0 4px 15px rgba(108, 74, 182, 0.08);
+}
+
+/* Headings */
+
+.page h1 {
+  color: #6c4ab6;
+  font-size: 32px;
+
+  margin-top: 0;
+}
+
+/* Paragraphs */
+
+.page p {
+  color: #514760;
+
+  font-size: 21px;
+
+  line-height: 1.6;
+}
+
+/* Task Input */
+
+.task-input {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-bottom: 25px;
+}
+
+.task-input label {
+  color: #2d2142;
+
+  font-size: 25px;
+}
+
+.task-input input {
+  width: 300px;
+
+  color: #2d2142;
+
+  background-color: white;
+
+  border: none;
+
+  border-bottom: 2px solid #6c4ab6;
+
+  outline: none;
+
+  padding: 5px;
+
+  font-size: 22px;
+}
+
+.task-input input:focus {
+  border-bottom: 3px solid #553798;
+}
+
+/* Task Count */
+
+.task-count {
+  color: #2d2142;
+
+  font-size: 25px;
+
+  margin-bottom: 25px;
+}
+
+/* Task List */
+
+.task-list {
+  list-style: none;
+
+  padding: 0;
+
+  margin: 0;
+}
+
+.task-list li {
+  color: #2d2142;
+
+  font-size: 21px;
+
+  margin: 18px 0;
+}
+
+/* Checkbox */
+
+.task-list input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+
+  margin-right: 10px;
+
+  accent-color: #6c4ab6;
+}
+
+/* Buttons */
+
+.button-container {
+  display: flex;
+
+  gap: 20px;
+
+  margin-top: 105px;
+}
+
+.button-container button,
+.page button {
+  background-color: #6c4ab6;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 8px;
+
+  padding: 14px 25px;
+
+  font-size: 19px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.button-container button:hover,
+.page button:hover {
+  background-color: #553798;
+
+  transform: translateY(-2px);
+}
